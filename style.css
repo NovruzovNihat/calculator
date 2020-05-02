@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #9c5dd5, #f08e79);
+}
+
+#cal {
+    width: 362px;
+    height: 582px;
+    border: none;
+    margin: auto;
+    transform: translate(0, 30px);
+   
+}
+#qarisiq,#yeddi,#doqquz,#bes,#bir,#uc{
+    background-color: gainsboro;
+
+}
+
+.cul {
+    background-color: black;
+    height: 130px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tor1 {
+    width: 91px;
+    height: 90px;
+    background-color: #f3f3f3;
+    color: black;
+    font-size: 30px;
+    border: none;
+}
+
+
+.tor2 {
+    width: 91px;
+    height: 90px;
+    background-color: #9155e1;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+.display div{
+    display: flex;
+}
+.tor3 {
+    background-color: #e62e89;
+    width: 182px;
+    height: 90px;
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+#yaz{
+    color: yellow;
+    width: 362px;
+    height: 50px;
+    font-size: 30px;
+  
+}
+#son{
+    color: red;
+    width: 362px;
+    height: 50px;
+    font-size: 50px;
+}

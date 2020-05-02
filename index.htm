@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <div id="cal">
+        <div class="cul">
+            <p id="yaz"></p><br>
+            <p id="son"></p>
+
+        </div>
+       <div class="display">
+        <div>
+            <div><input type="button" class="tor1" id="faiz" onclick="insertfaiz()" value="%"></div>
+            <div><input type="button" class="tor1" id="menfi" onclick="insert_men()" value="+/-"></div>
+            <div><input type="button" class="tor1" id="sil" onclick="insertc()" value="c"></div>
+            <div><input type="button" class="tor2" id="bol" onclick="insertbol()" value="/"></div>
+        </div>
+        <div>
+            <div><input type="button" class="tor1" id="yeddi" onclick="insert7()" value="7"></div>
+            <div><input type="button" class="tor1" id="sekkiz" onclick="insert8()" value="8"></div>
+            <div><input type="button" class="tor1" id="doqquz" onclick="insert9()" value="9"></div>
+            <div><input type="button" class="tor2" id="vur" onclick="insertvur()" value="*"></div>
+        </div>
+        <div>
+            <div><input type="button" class="tor1" id="dord" onclick="insert4()" value="4"></div>
+            <div><input type="button" class="tor1" id="bes" onclick="insert5()" value="5"></div>
+            <div><input type="button" class="tor1" id="alti" onclick="insert6()" value="6"></div>
+            <div><input type="button" class="tor2" id="cix" onclick="insertcix()" value="-"></div>
+        </div>
+        <div>
+            <div><input type="button" class="tor1" id="bir" onclick="insert1()" value="1"></div>
+            <div><input type="button" class="tor1" id="iki" onclick="insert2()" value="2"></div>
+            <div><input type="button" class="tor1" id="uc" onclick="insert3()" value="3"></div>
+            <div><input type="button" class="tor2" id="cem" onclick="insertcem()" value="+"></div>
+        </div>
+        <div class="aa"> 
+            <div><input type="button" class="tor1" id="sifir" onclick="insert0()" value="0"></div>
+            <div><input type="button" class="tor1" id="vergul" onclick="insertv()" value="."></div>
+            <div><input type="button" class="tor3" id="netice" onclick="hesab()" value="="></div>
+        </div>
+       </div>
+
+    </div>
+
+
+    <script src="1.js"></script>
+</body>
+
+</html>
